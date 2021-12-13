@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+font-face {
+    font-family: 'Ruhl';
+    src: url('/Font/FrankRuhlLibre-Regular.ttf');
+}
+
+font-face {
+    font-family: 'Ruhl Medium';
+    src: url('/Font/FrankRuhlLibre-Medium.ttf');
+}
+
+font-face {
+    font-family: 'Vibes';
+    src: url('/Font/GreatVibes-Regular.ttf');
+}
+
+html {
+    font-size: 62.5%;
+    --header1: calc(2rem + 1vw);
+    --header2: calc(3.5rem + 1vw);
+    --header3: calc(2rem + 1vw);
+    --header4: calc(2.4rem + 1vw);
+    --text: calc(1.5rem + 1vw);
+    --big: calc(2.4rem + 1vw);
+    --special-colour:#906272;
+    --background-colour:#414141;
+    --grey-text:#525252;
+}
+body {
+    font-family: 'Ruhl', sans-serif;
+}
+h1 {
+    font-family: "Vibes", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
