@@ -9,12 +9,12 @@ font-face {
     src: url('/Font/FrankRuhlLibre-Regular.ttf');
 }
 
-font-face {
+@font-face {
     font-family: 'Ruhl Medium';
     src: url('/Font/FrankRuhlLibre-Medium.ttf');
 }
 
-font-face {
+@font-face {
     font-family: 'Vibes';
     src: url('/Font/GreatVibes-Regular.ttf');
 }
@@ -34,8 +34,55 @@ html {
 body {
     font-family: 'Ruhl', sans-serif;
 }
+
+li,
+button,
+label,
+input,
+a,
+p {
+    font-size: var(--text);
+}
 h1 {
     font-family: "Vibes", sans-serif;
+    font-size: var(--header1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*nav section*/
+.main-head {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    
+}
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+#logo {
+    flex: 1 1 20rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    flex:  1 1 20rem;
+}
+
+.hero {
+    min-height: 90vh;
+    width: 95%;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
