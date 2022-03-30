@@ -191,6 +191,33 @@ nav {
 }
 
 
+/* Media queryy */
+@media screen and (max-width: 842px) {
+    .burger span {
+        padding: 0.2rem 2rem;
+        background: var(--grey-text);
+        margin: 0.5rem 0rem;
+        display: block;
+    }
+
+    .nav-links a {
+        color: #fff;
+        font-size: var(--header3);
+        text-decoration: underline;
+    }
+
+    .nav-links {
+        background: var(--background-colour);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 
 
